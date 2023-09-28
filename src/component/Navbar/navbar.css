@@ -1,0 +1,59 @@
+.nav-left{
+    display: flex;
+}
+
+
+
+.n-image{
+    width: 100px;
+    height: 100px;
+}
+.headers{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+}
+
+.sign in{
+display: flex;
+gap: 10px;
+}
+
+.log-icon{
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.signUp{
+    background-color: #007931;
+    color: white;
+    font-weight: bold;
+}
+
+.label-contain{
+    align-items: center;
+    justify-content: center;
+border: 0.5px solid   rgb(236, 231, 231);
+}
+
+
+.icon-label{
+    height: 30px;
+    width: 30px;
+}
+.padding-range{
+    padding: 5px;
+}
+
+
+.r-center{
+    
+
+}
+.d-flex{
+   
+}
