@@ -9,18 +9,12 @@ import Question from "./pages/question/Question";
 function App() {
   return (
     <div>
-
-    
-<Navbar/>
-
-    <HeaderPage/>
-
-    <HomePage/>
-    <Question/>
-<Banner/>
-
-<Footer/>
-
+      <Navbar />
+      <HeaderPage />
+      <HomePage />
+      <Question />
+      <Banner />
+      <Footer />
     </div>
   );
 }

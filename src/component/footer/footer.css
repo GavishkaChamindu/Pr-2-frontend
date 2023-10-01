@@ -1,118 +1,102 @@
-.footer{
-display: flex;
-flex-direction: column;
-background-color: #094149;
-/*background-color: #117A65;*/
-margin-top: 200px;
-   
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #094149;
+  /*background-color: #117A65;*/
+  margin-top: 200px;
 }
 
-.f-contain{
-    display: flex;
+.f-contain {
+  display: flex;
 
-    flex-direction: column;
-    margin: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-
+  flex-direction: column;
+  margin: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .footer-up {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.f-col ,.f-col1{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 1;
-    padding: 10px;
-    box-sizing: border-box; 
-    margin-top: 30px;
+.f-col,
+.f-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 30px;
 }
 
-.footer-header{
-    color: white;
-    font-size: 22px;
+.footer-header {
+  color: white;
+  font-size: 22px;
 }
-.header-title{
-    color: rgb(198, 195, 195);
-    cursor: pointer;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-.f-col1{
-   margin-right: 10px;
-}
-.title-span{
-    color: white;
-    font-weight: bold;
-    margin-right: 10px;
+.header-title {
+  color: rgb(198, 195, 195);
+  cursor: pointer;
 }
 
-.f-img{
-    width: 70px;
-    height: 70px;
+.f-col1 {
+  margin-right: 10px;
+}
+.title-span {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
-
-.set-footer-background{
-    padding: 15px;
-}
-.footer-col-right-contains{
-    width: 80%;
-  
-    background-color: hsl(193, 33%, 31%);
+.f-img {
+  width: 70px;
+  height: 70px;
 }
 
-.right-title-span{
-    color: white;
-    font-weight: 300;
+.set-footer-background {
+  padding: 15px;
 }
-.btn-btn-success{
-    
-   background-color: #61CE70;
-    border: none;
-    border-radius: 10px;
-padding: 9px;
-    width: 100%;
-    color: white;
-}
-.footer-bottom{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 50px;
+.footer-col-right-contains {
+  width: 80%;
+
+  background-color: hsl(193, 33%, 31%);
 }
 
-.f-b-right{
-    display: flex;
-    gap: 10px;
+.right-title-span {
+  color: white;
+  font-weight: 300;
+}
+.btn-btn-success {
+  background-color: #61ce70;
+  border: none;
+  border-radius: 10px;
+  padding: 9px;
+  width: 100%;
+  color: white;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 50px;
 }
 
-.set-icon-border{
-  
- 
-}
-.footer-left-span{
-    color: gray;
+.f-b-right {
+  display: flex;
+  gap: 10px;
 }
 
-.f-icon{
-    border-radius: 50%;
-    border: 1px solid gray;
-    padding: 0px;
+.set-icon-border {
+}
+.footer-left-span {
+  color: gray;
+}
+
+.f-icon {
+  border-radius: 50%;
+  border: 1px solid gray;
+  padding: 0px;
   width: 40px;
   height: 40px;
   color: white;
@@ -123,56 +107,37 @@ padding: 9px;
   cursor: pointer;
 }
 
-
-.bottom-hr{
-    color: white;
-    margin-right: 50px;
+.bottom-hr {
+  color: white;
+  margin-right: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
-    /* Apply styles for screens with a width of 768px or less */
-  
-    .f-contain {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    .footer-up {
-      flex-direction: column;
-    }
-  
-    .f-col,
-    .f-col1 {
-      flex: auto; /* Equal width columns */
-      margin-right: 0; /* Remove right margin */
-    }
-  
-    .set-footer-background {
-      padding: 10px;
-    }
-  
-    .footer-col-right-contains {
-      width: 100%; /* Take full width */
-    }
-
-    .bottom-hr{
-        color: white;
-        margin-right: 10px;
-    }
-  
-    /* Add more responsive adjustments as needed */
+  .f-contain {
+    margin-left: 20px;
+    margin-right: 20px;
   }
+
+  .footer-up {
+    flex-direction: column;
+  }
+
+  .f-col,
+  .f-col1 {
+    flex: auto;
+    margin-right: 0;
+  }
+
+  .set-footer-background {
+    padding: 10px;
+  }
+
+  .footer-col-right-contains {
+    width: 100%;
+  }
+
+  .bottom-hr {
+    color: white;
+    margin-right: 10px;
+  }
+}

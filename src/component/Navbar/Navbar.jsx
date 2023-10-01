@@ -9,21 +9,16 @@ import { BiLogIn } from "react-icons/bi";
 import { HiOutlineLogout } from "react-icons/hi";
 import { RiQuestionnaireLine } from "react-icons/ri";
 
-  export default function CustomNavbar() {
+export default function CustomNavbar() {
   return (
     <div>
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <div className="nav-left">
             <div className="navbar-image">
-
               <img src={Image} alt="" className="n-image" />
-             
             </div>
-            <div className="headers">
-             
-              
-            </div>
+            <div className="headers"></div>
           </div>
 
           <div className="nav-center"></div>
@@ -39,8 +34,7 @@ import { RiQuestionnaireLine } from "react-icons/ri";
             <div className="r-center">
               <Form className="d-flex">
                 <Button variant="outline-success" className="sign in">
-                    <BiLogIn className="log-icon" />
-                 
+                  <BiLogIn className="log-icon" />
                   Sign in
                 </Button>
               </Form>
@@ -49,7 +43,7 @@ import { RiQuestionnaireLine } from "react-icons/ri";
               <Form className="d-flex">
                 <Button variant="outline-success" className="signUp">
                   {" "}
-                  <HiOutlineLogout  className="log-icon"/>
+                  <HiOutlineLogout className="log-icon" />
                   Sign up
                 </Button>
               </Form>

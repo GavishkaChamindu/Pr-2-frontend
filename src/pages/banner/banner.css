@@ -1,109 +1,89 @@
-body
-{
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik', sans-serif;
+body {
+  font-family: "League Spartan", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
-.banner-contains{
-    display: flex;
-    margin-left: 160px;
-    margin-right: 160px;
-    
+.banner-contains {
+  display: flex;
+  margin-left: 160px;
+  margin-right: 160px;
 }
-.banner{
-
-   
+.banner {
 }
 
-.banner-left{
-    border-bottom-left-radius: 30px;
-    border-bottom: 1px solid #117A65;;
+.banner-left {
+  border-bottom-left-radius: 30px;
+  border-bottom: 1px solid #117a65;
 
-    display: flex;
-    flex-direction: column;
-    flex: 6;
-    background-color: #094149;
-    /*background-color: #117A65;*/
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  background-color: #094149;
+  /*background-color: #117A65;*/
 
-    padding: 50px;
+  padding: 50px;
 }
-.banner-left-up{
-    display: flex;
-
-}
-
-.banner-left-down{
-    display: flex;
-    flex-direction: column;
+.banner-left-up {
+  display: flex;
 }
 
-.banner-right{
-    display: flex;
-    border-top-right-radius: 30px;
-    border-top: 1px solid #117A65;;
-    justify-content: center;
-    flex: 3;
-    background-color: #094149;
-
-   /* background-color: #117A65;*/
-
-    padding: 50px;
+.banner-left-down {
+  display: flex;
+  flex-direction: column;
 }
 
+.banner-right {
+  display: flex;
+  border-top-right-radius: 30px;
+  border-top: 1px solid #117a65;
+  justify-content: center;
+  flex: 3;
+  background-color: #094149;
 
+  /* background-color: #117A65;*/
 
-.banner-header{
-color: white;
+  padding: 50px;
 }
 
-.banner-span{
-    color: #e2e4e3;
+.banner-header {
+  color: white;
+}
+
+.banner-span {
+  color: #e2e4e3;
 }
 
 .icon-banner {
-    color: white; 
+  color: white;
 
-    font-size: 52px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  font-size: 52px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .banner-contains {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 768px) {
-    /* Apply styles for screens with a width of 768px or less */
-  
-    .banner-contains {
-      flex-direction: column;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    .banner-left, .banner-right {
-      flex: auto; /* Equal width columns */
-      border-radius: 0; /* Remove border radius */
-      border: none; /* Remove border */
-      padding: 20px; /* Adjust padding for smaller screens */
-    }
-    
-    .banner-left-up, .banner-left-down {
-      flex-direction: column;
-    }
-    
-    .icon-banner {
-      font-size: 36px; /* Reduce font size for smaller screens */
-    }
-  
-    /* Add more responsive adjustments as needed */
+  .banner-left,
+  .banner-right {
+    flex: auto;
+    border-radius: 0;
+    border: none;
+    padding: 20px;
   }
+
+  .banner-left-up,
+  .banner-left-down {
+    flex-direction: column;
+  }
+
+  .icon-banner {
+    font-size: 36px;
+  }
+}
