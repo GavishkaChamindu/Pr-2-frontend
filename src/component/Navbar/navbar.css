@@ -1,16 +1,26 @@
 .nav-left{
     display: flex;
+    margin: 20px;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
 }
 
 
 
 .n-image{
-    width: 100px;
-    height: 100px;
+  width: 180px;
+  height: 40px; 
 }
 .headers{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+   
+ 
 }
 
 .nav-right{
@@ -29,9 +39,9 @@ gap: 10px;
 }
 
 .signUp{
-    background-color: #007931;
+    background-color: #61CE70;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .label-contain{
@@ -44,6 +54,7 @@ border: 0.5px solid   rgb(236, 231, 231);
 .icon-label{
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 .padding-range{
     padding: 5px;
